@@ -1,7 +1,7 @@
 /*-------------------BACKGROUND IMAGE ---------------*/
 .bgimage {
   width: 100% auto;
-  height: 500px;
+  height: 620px;
   background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 0%,
@@ -18,7 +18,7 @@
     color: black;
     font-family: 'Bentham', serif;
     text-shadow: none;
-    font-size: 40px;
+    font-size: 50px;
 }
 .delivered {
   color: white;
@@ -28,6 +28,11 @@
   padding: 100px 50px 50px 50px;
   text-shadow: 2px 8px 15px black;
   float: right;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  font-size: 40px;
 }
 /*--------------- HR DIVIDER ---------------*/
 
@@ -40,7 +45,7 @@ hr.solid {
   font-weight: 500;
   font-size: 20px;
   background-color: transparent;
-  border: 1px solid #e7baa0;
+  border: 2px solid #e7baa0;
   float: center;
   padding: 10px 40px 10px 40px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -49,23 +54,40 @@ hr.solid {
   border-radius: 45px;
   cursor: pointer;
   outline: none;
+  animation: 10s slide-right;
 }
 
 .health:hover {
   background-color: #e7baa0;
-  box-shadow: 1px 8px 20px #FF7F4F(255, 143, 15, 0.8);
+  
   color: white;
   transform: translateY(-4px);
 }
 
 /*--------------------- PHILOSOPHY ------------------- */
-#sectionabout {
-    background-image: radial-gradient( circle 979px at 1.5% 3%,  rgba(255,198,147,1) 0%, rgba(255,246,233,1) 100.2% ); 
-    border-radius: 3rem 3rem 3rem 3rem;
-     box-shadow: 2px 4px 2px 2px rgba(0, 0, 0, 0.25);
-
-
+#bgabout {
+    background: url('/assets/img/gojitea.jpg');
+    background-size: cover;
 }
+
+#sectionabout {
+    background-color: antiquewhite;
+    
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    border: 5px solid  #e7baa0;
+    border-radius: 16px;
+     -webkit-box-shadow:inset 0px 0px 0px 10px white;
+    -moz-box-shadow:inset 0px 0px 0px 10px white;
+   
+    
+    
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: justify;
+}
+
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
   #philosophy {
@@ -77,6 +99,7 @@ hr.solid {
 @media screen and (max-width: 600px) {
   #philosophy {
     font-size: 17px;
+
   }
 }
 
@@ -161,8 +184,14 @@ hr.solid {
 /*------------TEAM--------------------------*/
 
 .rounded-circle:hover {
-  box-shadow: 4px 4px 4px 2px #686256;
+  
+  border: 10px solid #e7baa0;
+  max-width: 100%;
+  height: auto;
+
 }
+
+
 
 
 /*------------------FOOTER-----------------*/
@@ -174,10 +203,16 @@ hr.solid {
 }
 
 .social:hover {
-  color: rgba(255, 198, 147, 1);
+  color:  #e7baa0;
 }
 
 
+.footerhr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
 
 /*-------------------SCROLL TOP ------------*/
 
@@ -190,12 +225,13 @@ hr.solid {
   font-size: 15px;
   border: none;
   outline: none;
-  background-color: rgba(255, 198, 147, 1);
-  color: white;
+  background-color: white;
+  color:  #e7baa0;
   cursor: pointer;
   padding: 10px;
-  border-radius: 20px;
-  box-shadow: 2px 2px 2px 1px black;
+  border-radius: 30px;
+  border: 2px solid #e7baa0;
+  
 }
 
 #myBtn:hover {
@@ -226,14 +262,15 @@ hr.solid {
 
 .myButton2 {
   background-color: rgba(255, 198, 147, 1);
-
+  
   display: inline-block;
   cursor: pointer;
   color: black;
-  border-radius: 15px;
+  
   font-family: "Roboto", sans-serif;
+  width:200px;
   font-size: 14px;
-  padding: 9px 25px;
+  padding: 14px 40px;
   text-decoration: none;
   -webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
@@ -279,9 +316,10 @@ hr.solid {
   font-size: 14px;
   border: none;
   padding: 9px 30px 9px 30px;
-  background-color: rgba(255, 198, 147, 1);
+  background-color: white;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  color: black;
+  color:  black;
+  border: 2px solid #e7baa0;
   display: inline-block;
   border-radius: 45px;
   cursor: pointer;
@@ -290,8 +328,11 @@ hr.solid {
 
 
 #submitenquiry:hover {
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+    
     background-position: left bottom;
+    background: #e7baa0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    
 }
 
 .form-control {

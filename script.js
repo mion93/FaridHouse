@@ -31,9 +31,9 @@ function topFunction() {
 
 // Toggle Animation for each kind of massages, that shows description and prices. 
 $(document).ready(function(){
-  $('.font-weight-light.description, .blockquote-footer').hide(0); 
+  $(' .blockquote-footer').hide(0); 
   $('.myButton2').click(function(){
-     $('.font-weight-light.description, .blockquote-footer').toggle();
+     $(' .blockquote-footer').toggle();
 
   });
 });
@@ -99,7 +99,7 @@ var x = setInterval(function() {
 
 
 
-// EMAIL API
+// EMAIL API, once the form is submitted an Email is received to Email.js and an alert will show up.
 
 function sendMail(contactForm) {
     emailjs.send("gmail", "rosie", {
@@ -109,7 +109,9 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+             alert('Your enquiry was sent, thank you!');
+             console.log("SUCCESS", response);
+               
         },
         function(error) {
             console.log("FAILED", error);
@@ -117,3 +119,36 @@ function sendMail(contactForm) {
     );
     return false;  // To block from loading a new page
 }
+
+
+
+
+
+// TEXT ANIMATION
+
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml2');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml2 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 950,
+    delay: (el, i) => 70*i
+  }).add({
+    targets: '.ml2',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+
+//ACCORDITION 
+
+$('#myCollapsible').on('hidden.bs.collapse', function () {
+  // do something…
+})
