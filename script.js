@@ -149,6 +149,3 @@ anime.timeline({loop: true})
 
 //ACCORDITION 
 
-$('#myCollapsible').on('hidden.bs.collapse', function () {
-  // do something…
-})
