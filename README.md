@@ -18,15 +18,15 @@ As a mobile user I would love to see Farid House Spa website mobile-friendly, to
 
 ## TECHNOLOGIES USED 
 
-#Bootstrap
+* Bootstrap
 Used for grid layout, navbar and footer.
-#FontAwesome
+* FontAwesome
 Used for some of the icons.
-#JQuery
+* JQuery
 Used for Gallery Carousel, Toggle Animation for the massages/treatments.
-#JAVASCRIPT
+* JAVASCRIPT
 Used for Homepage Landing Text Animation, COVID-19 Modal, Scroll to Top Button, CountDown days of New Opening Location.
-#APIS 
+* APIS 
 Email.js API used to receive the emails submitted. Added also an alert function that shows that the submission was successful. 
 Google Maps API used to display the location and the new opening 
 
