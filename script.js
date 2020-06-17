@@ -31,9 +31,9 @@ function topFunction() {
 
 // Toggle Animation for each kind of massages, that shows description and prices. 
 $(document).ready(function(){
-  $(' .blockquote-footer').hide(0); 
+  $('.blockquote-footer').hide(0); 
   $('.myButton2').click(function(){
-     $(' .blockquote-footer').toggle();
+     $('.blockquote-footer').toggle();
 
   });
 });
@@ -124,7 +124,7 @@ function sendMail(contactForm) {
 
 
 
-// TEXT ANIMATION
+// LANDING PAGE TEXT ANIMATION
 
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml2');
