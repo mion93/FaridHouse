@@ -198,21 +198,7 @@ The health and well-being of both our staff and valued customers is paramount. W
   <!-- Section: Block Content -->
   <section class="mb-4">
 
-    <style>
-      .map-container {
-        overflow: hidden;
-        position: relative;
-        height: 0;
-      }
-
-      .map-container iframe {
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-      }
-    </style>
+    
 
     <div class="card">
 
@@ -220,7 +206,7 @@ The health and well-being of both our staff and valued customers is paramount. W
         <div class="col-md-10 mx-auto">
 
           <!-- Google Maps -->
-          <div id="map-within-card" class="map-container" style="height: 400px">
+          <div id="map" class="map-container" style="height: 400px">
            
           </div>
           <!-- Google Maps -->
@@ -335,6 +321,12 @@ The health and well-being of both our staff and valued customers is paramount. W
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2TA1hROXb3zWoGGm_K-30WLL9hy_pFfg&callback=initMap"
     ></script>
     <script src="script.js"></script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>

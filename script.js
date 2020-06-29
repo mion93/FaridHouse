@@ -147,5 +147,35 @@ anime.timeline({loop: true})
     delay: 1000
   });
 
-//ACCORDITION 
 
+
+// GOOGLE MAPS API
+
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 3,
+    center: {
+      lat: 51.504140, 
+      lng: -0.104861,
+    },
+  });
+  var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var locations = [
+    { lat: 51.504140, lng: -0.104861 },
+    { lat: 51.516268, lng: -0.130071 },
+  
+  ];
+
+  var markers = locations.map(function (location, i) {
+    return new google.maps.Marker({
+      position: location,
+      label: labels[i % labels.length],
+    });
+  });
+
+  var markerCluster = new MarkerClusterer(map, markers, {
+    imagePath:
+      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+  });
+}
