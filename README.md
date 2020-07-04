@@ -16,10 +16,11 @@ As a mobile user I would love to see Farid House Spa website mobile-friendly, to
 
 ## FEATURES
 
-Farid House Spa website displays a sticky navbar, a footer, 3 pages (HOME, TREATMENTS AND CONTACT) and one modal,
+Farid House Spa website displays a sticky navbar, a footer, 3 pages (HOME, TREATMENTS AND CONTACT) and one modal.
 
 *NAVBAR
-Simple white coloured navbar that displays the logo of Farid House Spa, the homepage, treatments, COVID Modal and Contact Page.
+Simple white coloured navbar that displays the logo of Farid House Spa, the homepage, treatments, COVID Modal and Contact Page. 
+On mobile version the Navbar transforms in a hamburger menu.
 
 *HOME
 The HOME page is created on the first section with a background image that shows an animation text made with Javascript: 'RELAX AT OUR MASSAGE AND THERAPHY SPA', with a RESERVE button that brings the user to the contact page, so the user can contact to reserve any treatment and check avaiability.
@@ -35,25 +36,36 @@ The colors and the style used for the name buttons are the same of the other but
 
 *CONTACT 
 Contact page displays: 
--Contact Form (Using Email.js) for user that would like to send and equiry.
--Locations
--Next Opening (Using a CountDown with Javascript)
--Contact Number and Email
+-Contact Form (Using Email.js) for user that would like to send and equiry. When form is sent, an alert will be displayed on the website.
+-Locations.
+-Next Opening (Using a CountDown with Javascript).
+-Contact Number and Email.
 -Google Map (Using Google Maps Api) with two marker clusters.
+
+## FEATURES LEFT TO IMPLEMENT
+
+* In the future I would like to add a booking system that allows customers to book their treatment from the website.
+
 
 ## TECHNOLOGIES USED 
 
 * Bootstrap
 Used for grid layout, navbar and footer.
 * FontAwesome
-Used for some of the icons.
-* JQuery
+Used for icons.
+* JQUERY
 Used for Gallery Carousel, Toggle Animation for the massages/treatments.
 * JAVASCRIPT
 Used for Homepage Landing Text Animation, COVID-19 Modal, Scroll to Top Button, CountDown days of New Opening Location.
 * APIS 
 Email.js API used to receive the emails submitted. Added also an alert function that shows that the submission was successful. 
 Google Maps API used to display the location and the new spa opening.
+
+
+## MEDIA
+
+* All the images were provided by allthefreestock.com
+* LOGO: I personally created the logo with Adobe Photoshop
 
 
 
