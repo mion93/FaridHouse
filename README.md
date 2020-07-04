@@ -28,6 +28,7 @@ Used for Gallery Carousel, Toggle Animation for the massages/treatments.
 Used for Homepage Landing Text Animation, COVID-19 Modal, Scroll to Top Button, CountDown days of New Opening Location.
 * APIS 
 Email.js API used to receive the emails submitted. Added also an alert function that shows that the submission was successful. 
-Google Maps API used to display the location and the new opening 
+Google Maps API used to display the location and the new spa opening.
+
 
 
