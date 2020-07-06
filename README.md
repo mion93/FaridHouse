@@ -22,11 +22,14 @@ Farid House Spa website displays a sticky navbar, a footer, 3 pages (HOME, TREAT
 Simple white coloured navbar that displays the logo of Farid House Spa, the homepage, treatments, COVID Modal and Contact Page. 
 On mobile version the Navbar transforms in a hamburger menu.
 
+* SCROLL TO TOP BUTTON
+Scroll to top button made with Javascript allows users to go to the top of the page.
+
 * HOME
 The HOME page is created on the first section with a background image that shows an animation text made with Javascript: 'RELAX AT OUR MASSAGE AND THERAPHY SPA', with a RESERVE button that brings the user to the contact page, so the user can contact to reserve any treatment and check avaiability.
 Are also displayed the philosophy of the company, the services, a carousel gallery and the team.
 
-* COVID Modal
+* COVID MODAL
 Due to Coronavirus FARID HOUSE SPA will be closed, so I decided to create a Javascript Modal that shows the Governament advice. 
 
 * TREATMENTS 
@@ -60,6 +63,8 @@ Used for Homepage Landing Text Animation, COVID-19 Modal, Scroll to Top Button, 
 * APIS 
 Email.js API used to receive the emails submitted. Added also an alert function that shows that the submission was successful. 
 Google Maps API used to display the location and the new spa opening.
+* ANIMEJS
+Animejs used for landing page text animation.
 * W3SCHOOLS 
 Used for modal, timer and text animation.
 
@@ -74,8 +79,7 @@ Used for modal, timer and text animation.
 
 ## TESTING 
 
-![alt text](https://ibb.co/ypGcYjV)
-![alt text](https://ibb.co/K0vQFYM)
+
 
 
 
