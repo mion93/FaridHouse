@@ -44,7 +44,7 @@ Contact page displays:
 
 ## FEATURES LEFT TO IMPLEMENT
 
-* In the future I would like to add a booking system that allows customers to book their treatment from the website.
+* In the future would be great to add a booking system that allows customers to book their treatment from the website.
 
 
 ## TECHNOLOGIES USED 
@@ -60,6 +60,9 @@ Used for Homepage Landing Text Animation, COVID-19 Modal, Scroll to Top Button, 
 * APIS 
 Email.js API used to receive the emails submitted. Added also an alert function that shows that the submission was successful. 
 Google Maps API used to display the location and the new spa opening.
+* W3SCHOOLS 
+Used for modal, timer and text animation.
+
 
 
 ## MEDIA
