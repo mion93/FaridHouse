@@ -65,7 +65,14 @@ Google Maps API used to display the location and the new spa opening.
 ## MEDIA
 
 * All the images were provided by allthefreestock.com
-* LOGO: I personally created the logo with Adobe Photoshop
+* Logo was created with Adobe Photoshop 
+
+
+
+## TESTING 
+
+![alt text](https://ibb.co/ypGcYjV)
+![alt text](https://ibb.co/K0vQFYM)
 
 
 
