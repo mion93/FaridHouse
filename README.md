@@ -24,9 +24,9 @@ In my prospective as a guest I would like to see a spa website really clean and 
 - Which kind of treatments and packages has the company? If the products are displayed, I would like too see a small description, the images and the prices.
 - Appealing images, that attract the eye.
 - A contact form so I can contact them about my enquiry. 
-- Where are they located: I would like to see a Map with the location.
+- Where are the company is located and a Map with the location.
 
-* I decided to use the color #e7baa0 that fits with the concept of the SPA.
+* The color used for the website is #e7baa0 that fits with the concept of the SPA.
 
 * Buttons are made all with the same style to make sure there is constancy.
 
