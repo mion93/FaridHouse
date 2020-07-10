@@ -1,7 +1,7 @@
 /*-------------------BACKGROUND IMAGE ---------------*/
 .bgimage {
   width: 100%;
-  height: 555px;
+  height: 607px;
   background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 0%,
@@ -67,7 +67,7 @@ hr.solid {
 
 /*--------------------- PHILOSOPHY ------------------- */
 #bgabout {
-    background: url('/assets/img/gojitea.jpg');
+    background: url('/assets/img/outsidepool3.jpg');
     background-size: cover;
 }
 
