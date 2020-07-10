@@ -96,11 +96,12 @@ Used for modal, timer and text animation.
 
 # TESTING 
 
-## AUTOMATED TESTING 
+## Automated Testing 
 * Chrome Dev Tools - Test done for Desktop and Mobile Versions.
 * Accessibility 
 * SEO = Meta description tag provided.
-
+* https://gtmetrix.com/
+ ![alt text](https://img.techpowerup.org/200710/faridperformance.png)
 
 
 # DEPLOYMENT
