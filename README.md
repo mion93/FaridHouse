@@ -1,13 +1,13 @@
 
 
-## FARID HOUSE SPA WEBSITE
+# FARID HOUSE SPA WEBSITE
 
 * This website was created as project for Code Institute as Interactive Front-end Project.
 The main goal was representing a simple and elegant Spa Website that showcase the philosophy, the gallery, the team, the treatments and the location.
 
 
 
-## UX 
+# UX 
 
 * The website has been build for the clients and for the new customers who want to see the services of the Spa.
 I tried to keep it really minimal in order to focus on the 'relax' part, I tried to make it harmonious as possible, so user can even relax by navigating in it.
@@ -31,7 +31,7 @@ In my prospective as a guest I would like to see a spa website really clean and 
 * Buttons are made all with the same style to make sure there is constancy.
 
 
-## FEATURES
+# FEATURES
 
 Farid House Spa website displays a sticky navbar, a footer, 3 pages (HOME, TREATMENTS AND CONTACT) and one modal(COVID).
 
@@ -67,14 +67,14 @@ Contact page displays:
 -Contact Number and Email.
 -Google Map (Using Google Maps Api) with two marker clusters.
 
-## FEATURES LEFT TO IMPLEMENT
+# FEATURES LEFT TO IMPLEMENT
 
 * Form Validation.
 * Adding a booking system and cart that allows customers to book their treatment and to make the payments from the website.
 
 
 
-## TECHNOLOGIES USED 
+# TECHNOLOGIES USED 
 
 * Bootstrap
 Used for grid layout, navbar and footer.
@@ -94,16 +94,16 @@ Used for modal, timer and text animation.
 
 
 
-## TESTING 
+# TESTING 
 
-# AUTOMATED TESTING 
+## AUTOMATED TESTING 
 * Chrome Dev Tools - Test done for Desktop and Mobile Versions.
 * Accessibility 
 * SEO = Meta description tag provided.
 
 
 
-## DEPLOYMENT
+# DEPLOYMENT
 
 For deployment I choose to use GitHub Pages from its GitHub repository.
 The following steps were taken:
@@ -115,14 +115,14 @@ The following steps were taken:
 
 
 
-## MEDIA
+# MEDIA
 
 * All the images were provided by allthefreestock.com
 * Logo was created with Adobe Photoshop 
 
 
 
-## ONLINE RESOURCES
+# ONLINE RESOURCES
 
 * Stack Overflow
 * W3SCHOOLS
