@@ -96,6 +96,10 @@ Used for modal, timer and text animation.
 
 ## TESTING 
 
+# AUTOMATED TESTING 
+* Chrome Dev Tools - Test done for Desktop and Mobile Versions.
+* Accessibility 
+* SEO = Meta description tag provided.
 
 
 
