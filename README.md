@@ -98,8 +98,9 @@ Used for modal, timer and text animation.
 
 ## Automated Testing 
 * Chrome Dev Tools - Test done for Desktop and Mobile Versions.
-* Accessibility 
-* SEO = Meta description tag provided.
+* HTML Validator https://validator.w3.org/nu/ = 
+* CSS validator https://www.w3.org/  = 0 Errors 
+* SEO = Meta description tag provided. 
 * https://gtmetrix.com/
  ![alt text](https://img.techpowerup.org/200710/faridperformance.png)
 
@@ -118,8 +119,8 @@ The following steps were taken:
 
 # MEDIA
 
-* All the images were provided by allthefreestock.com
-* Logo was created with Adobe Photoshop 
+* All the images were provided by allthefreestock.com .
+* Logo was created with Adobe Photoshop. 
 
 
 
