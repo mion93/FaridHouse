@@ -6,8 +6,8 @@
 The main goal was representing a simple and elegant Spa Website that showcase the philosophy, the gallery, the team, the treatments and the location.
 
 
-![alt text](https://imgur.com/JPQknBK)
-![alt text](https://imgur.com/wXkr6AG)
+ ![alt text](https://imgur.com/JPQknBK)
+ ![alt text](https://imgur.com/wXkr6AG)
 
 
 
