@@ -6,6 +6,10 @@
 The main goal was representing a simple and elegant Spa Website that showcase the philosophy, the gallery, the team, the treatments and the location.
 
 
+![alt text](https://imgur.com/JPQknBK)
+![alt text](https://imgur.com/wXkr6AG)
+
+
 
 # UX 
 
@@ -98,11 +102,66 @@ Used for modal, timer and text animation.
 
 ## Automated Testing 
 * Chrome Dev Tools - Test done for Desktop and Mobile Versions.
-* HTML Validator https://validator.w3.org/nu/ = 
+* HTML Validator https://validator.w3.org/nu/ = 0 Errors
 * CSS validator https://www.w3.org/  = 0 Errors 
 * SEO = Meta description tag provided. 
 * https://gtmetrix.com/
  ![alt text](https://img.techpowerup.org/200710/faridperformance.png)
+
+* Images size reduced. Keept the Hero Landing Page to the original size to maintain the high resolution.
+
+
+## Manual Testing 
+
+* NAVBAR 
+- Each page links to the correct html page = PASS
+- LOGO is connected with the Hompage = PASS
+- NAVBAR transforms in a Hamburger menu' on mobile friendly devices = PASS
+- check that current nav bar link (excluding Brand) is correctly styled and distinguished from the others = PASS
+
+* FOOTER
+- Check that every social link take you to the external site = PASS
+- Check in Mobile Version if informations are displayed centered and styled correctly = PASS
+- Check hover effect of the social links. = PASS
+
+
+* SCROLL TOP BUTTON
+- Check responsiveness = PASS
+- Check if the script is working correctly = PASS
+- Check hover effect = PASS
+
+
+* HOME 
+- Check Hero Image is displayed correctly = PASS
+- Check text animation is working correctly in Desktop/Mobile Versions = PASS
+- Check RESERVE button links to contact page = PASS
+- Check ABOUT US / SERVICES are responsive = PASS 
+- Check Gallery Carousel if it's fluid to navigate and responsive = PASS
+- Check Team Hover effect and responsiveness = PASS 
+
+
+* TREATMENTS 
+- Check responsiveness on desktop/mobile devices = PASS
+- Check toggle script is working when buttons are pressed = PASS 
+- Check informations are correctly displayed = PASS
+
+
+* COVID MODAL
+- Check responsiveness = PASS
+- Check informations and style are displayed correctly = PASS
+- Check NavBar is connected to Modal for every single page = PASS
+
+
+* CONTACT 
+- Check responsiveness of the form = PASS
+- Check Email.js API is working and receiving emails = PASS
+- Check if Alert is displayed when Enquiry is sent = PASS
+- Check hover effect of SEND ENQUIRY = Pass
+- Check informations are displayed correctly = PASS 
+- Check COUNTDOWN script is displayed and working = PASS
+- Check responsiveness of Google Maps = PASS
+- Check Google Maps API is working correctly and displaying Marker Clusters = PASS 
+
 
 
 # DEPLOYMENT
@@ -120,7 +179,7 @@ The following steps were taken:
 # MEDIA
 
 * All the images were provided by allthefreestock.com .
-* Logo was created with Adobe Photoshop. 
+* Logo created with Adobe Photoshop. 
 
 
 
@@ -128,3 +187,4 @@ The following steps were taken:
 
 * Stack Overflow
 * W3SCHOOLS
+* Wikipedia 
