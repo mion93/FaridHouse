@@ -29,6 +29,10 @@ In my prospective as a guest I would like to see a spa website really clean and 
 
 * Buttons are made all with the same style to make sure there is constancy.
 
+* The main goal was to make the website more responsive as possibile. 
+![alt text](https://imgur.com/URjcgPS)
+
+
 
 # FEATURES
 
