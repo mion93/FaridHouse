@@ -30,7 +30,7 @@ In my prospective as a guest I would like to see a spa website really clean and 
 * Buttons are made all with the same style to make sure there is constancy.
 
 * The main goal was to make the website more responsive as possibile. 
-![alt text](https://imgur.com/URjcgPS)
+  ![Iphone](https://img.techpowerup.org/200718/8000-d8670b6e-e176-48f5-94d0-00caed22ed22-ws-eu01-gitpod-io-iphone-6-7-8-plus.png)
 
 
 
