@@ -133,7 +133,7 @@ Used for modal, timer and text animation.
 
 * HOME 
 - Check Hero Image is displayed correctly = PASS
-- Check text animation is working correctly in Desktop/Mobile Versions = PASS
+- Check text animation with JAVASCRIPT is working correctly in Desktop/Mobile Versions = PASS
 - Check RESERVE button links to contact page = PASS
 - Check ABOUT US / SERVICES are responsive = PASS 
 - Check Gallery Carousel if it's fluid to navigate and responsive = PASS
